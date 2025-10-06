@@ -44,3 +44,17 @@ function getComputerChoice() {
     return items[Math.floor(Math.random() * items.length)];
 }
 
+//add a function to get results
+function getResult(player, computer) {
+    if (player === computer) return "draw";
+    if (
+        (player === "rock" && computer === "scissors") ||
+        (player === "paper" && computer === "rock") ||
+        (player === "scissors" && computer === "paper") 
+    ) {
+        return "win";
+    } else {
+        return "lose";
+    }
+}
+
