@@ -30,9 +30,22 @@ body {
   overflow: hidden;
 }
 
-.container_wrapper {
+.container-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.computer {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.computer .comp {
+  align-items: center;
+  border: black;
+  border-style: dashed;
+  
 }
 
