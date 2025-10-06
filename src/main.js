@@ -35,5 +35,12 @@ buttons.forEach(button => {
         //update and display result
         updateScores(result);
         displayResult(result);
-    })
-})
+    });
+});
+
+//add a function to get computer choice
+function getComputerChoice() {
+    const items = ["rock", "paper", "scissors"];
+    return items[Math.floor(Math.random() * items.length)];
+}
+
