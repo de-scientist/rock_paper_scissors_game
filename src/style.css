@@ -20,11 +20,11 @@ body {
 }
 
 
-.container {
+.game-container {
   max-width: 750px;
   width: 100%;
   height: 100%;
-  background-color: #7BB274;
+  background-color: #a4c639;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   padding: 2.5rem 3rem;
   border-radius: 0;
