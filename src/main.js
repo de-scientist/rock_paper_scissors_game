@@ -16,3 +16,15 @@ const choices = {
     paper: "✋",
     scissors: "✌️"
 }
+
+//add functionalities to the buttons
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        const player = button.getAttribute("data-choice");
+        const computer = getComputerChoice();
+        const result = getResult(player, computer);
+
+        //set the choice
+        
+    })
+})
