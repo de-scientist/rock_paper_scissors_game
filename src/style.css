@@ -87,7 +87,7 @@ body {
 
 .result-banner h2 {
   margin: 0;
-  font-size: 12px;
+  font-size: 25px;
 }
 
 .controls {
@@ -95,4 +95,18 @@ body {
   display: flex;
   justify-content: center;
   gap: 12px;
+}
+
+.controls button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  padding: 10px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
