@@ -25,6 +25,7 @@ buttons.forEach(button => {
         const result = getResult(player, computer);
 
         //set the choice
-        
+        playerChoice.textContent = choices[player];
+        computerChoice.textContent = choices[computer];
     })
 })
