@@ -73,3 +73,11 @@ function displayResult(result) {
 }
 
 //add a function to update scores
+function updateScores(result) {
+    if (result === "win") playerScore++;
+    if (result === "lose") computerScore++;
+
+    playerScoreText.textContent = `player ${playerScore}`;
+    computerScoreText.textContent = `computer ${computerScore}`;
+}
+
