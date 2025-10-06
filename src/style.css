@@ -81,7 +81,13 @@ body {
 
 .result-banner {
   background-color: #f6b93b;
-  padd
+  padding: 8px 0;
+  width: 100%;
+}
+
+.result-banner h2 {
+  margin: 0;
+  font-size: 12px;
 }
 
 .player {
