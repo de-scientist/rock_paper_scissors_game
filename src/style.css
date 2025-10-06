@@ -40,6 +40,7 @@ body {
   display: block;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .computer .comp {
@@ -49,3 +50,40 @@ body {
   
 }
 
+.result {
+  background: goldenrod;
+}
+
+.player {
+  display: block;
+  padding: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10rem;
+  font-size: 5rem;
+  border-radius: 3rem;
+}
+
+.buttons .rock {
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 3rem;
+}
+
+.buttons .paper {
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 3rem;
+
+}
+
+.buttons .scissors {
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+
+}
