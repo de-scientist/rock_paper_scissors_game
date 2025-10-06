@@ -81,3 +81,8 @@ function updateScores(result) {
     computerScoreText.textContent = `computer ${computerScore}`;
 }
 
+//add a function to animate
+function animate(el) {
+    el.classList.add("animate");
+    setTimeout(() => el.classList.remove("animate"), 200)
+}
