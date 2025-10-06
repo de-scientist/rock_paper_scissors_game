@@ -59,6 +59,13 @@ body {
   margin-top: 10px;
 }
 
+.side h3 {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+
+
 .result {
   background: goldenrod;
 }
