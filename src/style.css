@@ -110,3 +110,9 @@ body {
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
+
+.controls button:hover {
+  transform: scale(1.05);
+  background-color: #ffeb99;
+}
+
