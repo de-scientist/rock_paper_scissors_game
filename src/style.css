@@ -51,20 +51,12 @@ body {
   text-decoration: underline;
 }
 
-.computer {
-  display: block;
+.game-main {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.computer .comp {
-  align-items: center;
-  border: black;
-  border-style: dashed;
-  max-width: 100px;
-  max-height: 50px;
-  
+  gap: 20px;
+  margin-top: 10px;
 }
 
 .result {
