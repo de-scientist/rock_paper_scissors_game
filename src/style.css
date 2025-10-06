@@ -46,9 +46,9 @@ body {
   font-size: 12px;
 }
 
-.content {
-
-  align-items: center;
+.container-wrapper a {
+  color: blue;
+  text-decoration: underline;
 }
 
 .computer {
