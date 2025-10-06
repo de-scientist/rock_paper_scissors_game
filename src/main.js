@@ -33,5 +33,7 @@ buttons.forEach(button => {
         animate(computerChoice);
 
         //update and display result
+        updateScores(result);
+        displayResult(result);
     })
 })
