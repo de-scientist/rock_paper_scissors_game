@@ -116,3 +116,6 @@ body {
   background-color: #ffeb99;
 }
 
+.controls button:active {
+  transform: scaleX(0.95);
+}
