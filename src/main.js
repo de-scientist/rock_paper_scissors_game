@@ -58,3 +58,17 @@ function getResult(player, computer) {
     }
 }
 
+//add a function to display results
+function displayResult(result) {
+    if (result === "draw") {
+        resultText.textContent = "ITS A DRAW";
+        resultText.style.color = "#000";
+    } else if (result === "win") {
+        resultText.textContent = "YOU WIN 🎉";
+        resultText.style.color = "green"
+    } else {
+        resultText.textContent = "YOU LOSE 💀";
+        resultText.style.color = "red";
+    }
+}
+
