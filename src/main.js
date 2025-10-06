@@ -27,5 +27,11 @@ buttons.forEach(button => {
         //set the choice
         playerChoice.textContent = choices[player];
         computerChoice.textContent = choices[computer];
+
+        //animate choice
+        animate(playerChoice);
+        animate(computerChoice);
+
+        //update and display result
     })
 })
