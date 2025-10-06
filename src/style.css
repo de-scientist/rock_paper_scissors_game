@@ -36,6 +36,11 @@ body {
   justify-content: space-between;
 }
 
+.content {
+
+  align-items: center;
+}
+
 .computer {
   display: block;
   align-items: center;
@@ -47,6 +52,8 @@ body {
   align-items: center;
   border: black;
   border-style: dashed;
+  max-width: 100px;
+  max-height: 50px;
   
 }
 
