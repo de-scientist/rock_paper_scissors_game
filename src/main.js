@@ -72,3 +72,4 @@ function displayResult(result) {
     }
 }
 
+//add a function to update scores
