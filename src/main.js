@@ -33,6 +33,26 @@ function startTimer() {
   }, 1000);
 }
 
+// Reset timer each time player clicks a button
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    clearInterval(timer);
+    const player = button.getAttribute("data-choice");
+    const computer = getComputerChoice();
+    const result = getResult(player, computer);
+
+    playerChoice.textContent = choices[player];
+    computerChoice.textContent = choices[computer];
+
+    animate(playerChoice);
+    animate(computerChoice);
+
+    updateScores(result);
+    displayResult(result);
+    startTimer(); // restart the timer for the next round
+  });
+});
+
 // Choices dictionary
 const choices = {
   rock: "✊",
