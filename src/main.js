@@ -13,6 +13,25 @@ let computerScore = 0;
 let timeLeft = 5;
 let timer;
 
+// Start countdown each round
+function startTimer() {
+  clearInterval(timer);
+  timeLeft = 5;
+  timerDisplay.textContent = timeLeft;
+
+  timer = setInterval(() => {
+    timeLeft--;
+    timerDisplay.textContent = timeLeft;
+
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      resultText.textContent = "⏰ Time’s Up! You Lose 💀";
+      resultText.style.color = "red";
+      computerScore++;
+      computerScoreText.textContent = `Computer: ${computerScore}`;
+    }
+  }, 1000);
+}
 
 // Choices dictionary
 const choices = {
