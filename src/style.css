@@ -42,7 +42,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
   font-size: 12px;
 }
 
@@ -82,12 +83,14 @@ body {
 .result-banner {
   background-color: #f6b93b;
   padding: 8px 0;
-  width: 100%;
+  max-width: 800px;
+  height: 70px;
 }
 
 .result-banner h2 {
   margin: 0;
   font-size: 25px;
+
 }
 
 #timer-container {
