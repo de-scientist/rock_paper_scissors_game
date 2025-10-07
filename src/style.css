@@ -114,7 +114,7 @@ body {
 .controls button:hover {
   transform: scale(1.05);
   background-color: #ffeb99;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4));
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
 }
 
 .controls button:active {
@@ -122,7 +122,7 @@ body {
 }
 
 .controls button .emoji {
-  font-size: 2rem;
+  font-size: 3.5rem;
   margin-bottom: 8px;
 }
 
