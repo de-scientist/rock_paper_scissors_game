@@ -122,7 +122,7 @@ function updateScores(result) {
   if (result === "win") playerScore++;
   if (result === "lose") computerScore++;
 
-  playerScoreText.textContent = `player ${playerScore}`;
+  playerScoreText.textContent = `${playerScore}: player`;
   computerScoreText.textContent = `computer ${computerScore}`;
 }
 
