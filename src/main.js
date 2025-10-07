@@ -17,11 +17,11 @@ let timer;
 function startTimer() {
   clearInterval(timer);
   timeLeft = 5;
-  timerDisplay.textContent = timeLeft;
+  timerDisplay.textContent =  `⏳ ${timeLeft}s`;
 
   timer = setInterval(() => {
     timeLeft--;
-    timerDisplay.textContent = timeLeft;
+    timerDisplay.textContent =  `⏳ ${timeLeft}s`;
 
     if (timeLeft <= 0) {
       clearInterval(timer);
@@ -29,6 +29,10 @@ function startTimer() {
       resultText.style.color = "red";
       computerScore++;
       computerScoreText.textContent = `Computer: ${computerScore}`;
+
+    // restart timer automatically
+    setTimeout(startTimer, 2000);
+    
     }
   }, 1000);
 }
