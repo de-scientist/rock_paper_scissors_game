@@ -43,8 +43,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
-  padding-right: 5px;
-  font-size: 12px;
+  padding: 10px 25px;
+  font-size: 15px;
 }
 
 .container-wrapper a {
@@ -56,6 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   margin-top: 10px;
 }
@@ -68,6 +69,7 @@ body {
 .emoji-box {
   width: 150px;
   height: 150px;
+  margin: 15px auto;
   border: 3px dashed #000;
   display: flex;
   justify-content: center;
