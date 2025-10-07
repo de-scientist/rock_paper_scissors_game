@@ -131,3 +131,7 @@ function animate(el) {
   el.classList.add("animate");
   setTimeout(() => el.classList.remove("animate"), 200);
 }
+
+
+//Start the first timer
+startTimer();
