@@ -5,6 +5,7 @@ const resultText = document.getElementById("result-text");
 const buttons = document.querySelectorAll(".controls button");
 const playerScoreText = document.getElementById("player-score");
 const computerScoreText = document.getElementById("computer-score");
+const timerDisplay = document.getElementById("timer");
 
 // Initialize scores
 let playerScore = 0;
