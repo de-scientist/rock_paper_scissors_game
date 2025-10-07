@@ -17,11 +17,11 @@ let timer;
 function startTimer() {
   clearInterval(timer);
   timeLeft = 5;
-  timerDisplay.textContent =  `⏳ ${timeLeft}s`;
+  timerDisplay.textContent =  `⏳ ${timeLeft}`;
 
   timer = setInterval(() => {
     timeLeft--;
-    timerDisplay.textContent =  `⏳ ${timeLeft}s`;
+    timerDisplay.textContent =  `⏳ ${timeLeft}`;
 
     if (timeLeft <= 0) {
       clearInterval(timer);
@@ -32,7 +32,7 @@ function startTimer() {
 
     // restart timer automatically
     setTimeout(startTimer, 2000);
-    
+
     }
   }, 1000);
 }
